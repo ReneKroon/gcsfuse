@@ -8,6 +8,9 @@ go:
   - 1.14
   - tip
 
+env:
+  - GOCACHE=/tmp
+
 # Use the virtualized Trusty beta Travis is running in order to get support for
 # installing fuse.
 #
