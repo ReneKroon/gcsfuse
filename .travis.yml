@@ -50,5 +50,5 @@ install: true
 # Fix this by renaming the directory before testing.
 script:
   - cd $GOPATH/src/github.com/
-  - mv GoogleCloudPlatform googlecloudplatform
+  - mv ReneKroon googlecloudplatform
   - go test -v github.com/googlecloudplatform/gcsfuse/...
